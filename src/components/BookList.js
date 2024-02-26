@@ -84,8 +84,8 @@ const BookList = ({ books }) => {
                 onChange={handleFeedbackChange}
                 className="p-2 border border-gray-300 mr-4"
               ></textarea>
-              <button className="ModalDownloadButton mr-2" onClick={handleSubmitRatingAndFeedback}>
-                Save
+              <button className="ModalDownloadButton mr-2" onClick={() => handleDownloadBook(selectedBook)}>
+                Download
               </button>
               <button className="ModalCloseButton" onClick={handleCloseModal}>
                 Close
