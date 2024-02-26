@@ -1,0 +1,66 @@
+/* src/BookList.css */
+/* ... (existing styles) */
+
+.Modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ModalContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 120%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ModalTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .ModalDescription {
+    margin-bottom: 20px;
+  }
+  
+  .ModalCloseButton,
+  .ModalDownloadButton {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .ModalCloseButton {
+    background-color: #e53e3e;
+    color: #fff;
+  }
+  
+  .ModalCloseButton:hover {
+    background-color: #c53030;
+  }
+  
+  .ModalDownloadButton {
+    background-color: #38a169;
+    color: #fff;
+  }
+  
+  .ModalDownloadButton:hover {
+    background-color: #2f855a;
+  }
+  
+  /* Hover effect for book items */
+  .cursor-pointer:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
